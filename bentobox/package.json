@@ -1,0 +1,22 @@
+{
+  "name": "@graal-types/bentobox",
+  "version": "1.23.2",
+  "description": "Graal Types",
+  "types": "./index.d.ts",
+  "author": "Kyle Mercer",
+  "license": "MIT",
+  "dependencies": {
+    "@graal-types/java-16": "^1.0.0"
+  },
+  "tsbindOptions": {
+    "artifacts": [
+      "world.bentobox:bentobox:1.23.2"
+    ],
+    "repos": [
+      "https://repo.codemc.org/repository/maven-public/"
+    ],
+    "out": "bentobox",
+    "index": true,
+    "exclude": []
+  }
+}
